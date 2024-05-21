@@ -23,7 +23,7 @@ let IceServerCredential
 const TalkingAvatarCharacter = "lisa"
 const TalkingAvatarStyle = "casual-sitting"
 
-supported_languages = ["en-US", "de-DE", "zh-CN", "ko-KR"] // ["en-US", "de-DE", "zh-CN", "ar-AE"]  ja-JP The language detection engine supports a maximum of 4 languages
+supported_languages = ["en-US", "de-DE", "zh-CN", "ar-AE"] // ["en-US", "de-DE", "zh-CN", "ko-KR"] // ["en-US", "de-DE", "zh-CN", "ar-AE"]  ja-JP The language detection engine supports a maximum of 4 languages
 
 let token
 
