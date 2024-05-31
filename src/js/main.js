@@ -27,7 +27,7 @@ supported_languages = ["en-US", "de-DE", "zh-CN", "ar-AE"] // ["en-US", "de-DE",
 
 let token
 
-const speechSynthesisConfig = SpeechSDK.SpeechConfig.fromEndpoint(new URL("wss://{rigion}.tts.speech.microsoft.com/cognitiveservices/websocket/v1?enableTalkingAvatar=true".replace("{region}", CogSvcRegion)))
+const speechSynthesisConfig = SpeechSDK.SpeechConfig.fromEndpoint(new URL("wss://{region}.tts.speech.microsoft.com/cognitiveservices/websocket/v1?enableTalkingAvatar=true".replace("{region}", CogSvcRegion)))
 
 // Global objects
 var speechSynthesizer
