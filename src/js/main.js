@@ -14,7 +14,7 @@ var system_prompt = `You are an AI assistant focused on delivering brief product
 
 const TTSVoice = "en-US-JennyMultilingualNeural" // Update this value if you want to use a different voice
 
-const CogSvcRegion = "southeastasia" //"japaneast" org : westeurope" // Fill your Azure cognitive services region here, e.g. westus2
+const CogSvcRegion = "southeastasia" //southeastasia" //"japaneast" org : westeurope" // Fill your Azure cognitive services region here, e.g. westus2
 
 const IceServerUrl = "turn:relay.communication.microsoft.com:3478" // Fill your ICE server URL here, e.g. turn:turn.azure.com:3478
 let IceServerUsername
@@ -27,7 +27,7 @@ supported_languages = ["en-US", "de-DE", "zh-CN", "ar-AE"] // ["en-US", "de-DE",
 
 let token
 
-const speechSynthesisConfig = SpeechSDK.SpeechConfig.fromEndpoint(new URL("wss://{region}.tts.speech.microsoft.com/cognitiveservices/websocket/v1?enableTalkingAvatar=true".replace("{region}", CogSvcRegion)))
+const speechSynthesisConfig = SpeechSDK.SpeechConfig.fromEndpoint(new URL("wss://southeastasia.tts.speech.microsoft.com/cognitiveservices/websocket/v1?enableTalkingAvatar=true".replace("{region}", CogSvcRegion)))
 
 // Global objects
 var speechSynthesizer
